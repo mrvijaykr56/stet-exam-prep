@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mrvijaykr56.github.io/stet-exam-prep/sitemap.xml
