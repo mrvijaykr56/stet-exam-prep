@@ -1,0 +1,19 @@
+{
+  "name": "Bihar STET 2026 CS Prep",
+  "short_name": "STET 2026 CS",
+  "description": "Comprehensive Bihar STET 2026 Computer Science Paper II preparation app with syllabus explorer, practice quizzes, and mock exams.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e3a5f",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+

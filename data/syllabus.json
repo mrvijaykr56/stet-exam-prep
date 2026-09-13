@@ -1,0 +1,939 @@
+{
+  "exam": "Bihar STET 2026",
+  "paper": "Paper II - Computer Science",
+  "totalMarks": 100,
+  "units": [
+    {
+      "id": "unit1",
+      "number": 1,
+      "title": "Digital Logic",
+      "category": "Computer Fundamentals / Digital Logic & Computer Organization",
+      "color": "#6366f1",
+      "icon": "⚡",
+      "estimatedHours": 20,
+      "topics": [
+        {
+          "id": "u1t1",
+          "title": "Number Systems",
+          "subtopics": [
+            "Binary Number System",
+            "Octal Number System",
+            "Hexadecimal Number System",
+            "BCD (Binary Coded Decimal)",
+            "ASCII and EBCDIC codes",
+            "Gray Codes",
+            "Number System Conversions"
+          ]
+        },
+        {
+          "id": "u1t2",
+          "title": "Binary Arithmetic",
+          "subtopics": [
+            "Signed Binary Representation",
+            "1's Complement",
+            "2's Complement",
+            "Binary Addition and Subtraction",
+            "Binary Multiplication and Division"
+          ]
+        },
+        {
+          "id": "u1t3",
+          "title": "Boolean Algebra & Logic Gates",
+          "subtopics": [
+            "Boolean Algebra Laws and Theorems",
+            "Venn Diagrams",
+            "Logic Gates (AND, OR, NOT, NAND, NOR, XOR, XNOR)",
+            "Truth Tables and Circuits",
+            "SOP (Sum of Products) Form",
+            "POS (Product of Sums) Form",
+            "Algebraic Minimization",
+            "Karnaugh Map (K-map) Minimization"
+          ]
+        },
+        {
+          "id": "u1t4",
+          "title": "Combinational Circuits",
+          "subtopics": [
+            "Half Adder and Full Adder",
+            "Half Subtractor and Full Subtractor",
+            "Encoder and Decoder",
+            "Comparator",
+            "Multiplexer (MUX)",
+            "Demultiplexer (DEMUX)",
+            "Parity Generator and Checker"
+          ]
+        },
+        {
+          "id": "u1t5",
+          "title": "Memory Systems",
+          "subtopics": [
+            "RAM (SRAM, DRAM)",
+            "ROM, EPROM, EEPROM",
+            "Memory Design using ROM",
+            "PLDs (Programmable Logic Devices)",
+            "PLAs (Programmable Logic Arrays)"
+          ]
+        },
+        {
+          "id": "u1t6",
+          "title": "Sequential Circuits",
+          "subtopics": [
+            "SR Flip-Flop",
+            "JK Flip-Flop",
+            "D Flip-Flop",
+            "T Flip-Flop",
+            "Registers",
+            "Counters (Regular & Irregular)",
+            "State Tables and Transition Diagrams",
+            "Sequential Circuit Design Methodology"
+          ]
+        },
+        {
+          "id": "u1t7",
+          "title": "Conversion & Logic Families",
+          "subtopics": [
+            "A/D Conversion Techniques",
+            "D/A Conversion Techniques",
+            "TTL Logic Family",
+            "ECL Logic Family",
+            "MOS and CMOS Logic Families"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "number": 2,
+      "title": "Computer Organization & Architecture",
+      "category": "Computer Fundamentals / Digital Logic & Computer Organization",
+      "color": "#8b5cf6",
+      "icon": "🖥️",
+      "estimatedHours": 18,
+      "topics": [
+        {
+          "id": "u2t1",
+          "title": "Data Representation",
+          "subtopics": [
+            "Number System Conversions",
+            "Binary Arithmetic (addition, subtraction, multiplication, division)",
+            "Complement-based arithmetic"
+          ]
+        },
+        {
+          "id": "u2t2",
+          "title": "Error Detection & Correction",
+          "subtopics": [
+            "Parity Bits (Even & Odd)",
+            "Checksum Method",
+            "Hamming Code"
+          ]
+        },
+        {
+          "id": "u2t3",
+          "title": "Alphanumeric Codes",
+          "subtopics": [
+            "ASCII Code",
+            "EBCDIC Code",
+            "Excess-3 Code",
+            "BCD Code",
+            "Gray Code Conversions"
+          ]
+        },
+        {
+          "id": "u2t4",
+          "title": "Microcomputer Components",
+          "subtopics": [
+            "CPU Architecture",
+            "Address Bus, Data Bus, Control Bus",
+            "Memory Types (SRAM, DRAM, PROM, EPROM, EEPROM)",
+            "Microprocessor Basics",
+            "Microcontroller Basics",
+            "Addressing Techniques"
+          ]
+        },
+        {
+          "id": "u2t5",
+          "title": "Digital Electronics & ALU",
+          "subtopics": [
+            "De Morgan's Theorems",
+            "Universal Gates (NAND, NOR)",
+            "K-map Simplifications (pairs, quads, octets, don't cares)",
+            "Half Adder, Full Adder",
+            "Binary Adder",
+            "2's Complement Adder-Subtractor",
+            "ALU Design"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "number": 3,
+      "title": "Programming and Data Structures",
+      "category": "Programming & Data Structures + Algorithms",
+      "color": "#0ea5e9",
+      "icon": "📦",
+      "estimatedHours": 25,
+      "topics": [
+        {
+          "id": "u3t1",
+          "title": "Introduction & Algorithm Analysis",
+          "subtopics": [
+            "Data vs Information",
+            "Data Types (built-in, abstract)",
+            "Linear vs Non-linear Structures",
+            "Algorithm Definition and Properties",
+            "Design Techniques",
+            "Performance Analysis",
+            "Asymptotic Notations (Big-O, Omega, Theta)",
+            "Time and Space Complexity"
+          ]
+        },
+        {
+          "id": "u3t2",
+          "title": "Arrays",
+          "subtopics": [
+            "1D and 2D Arrays",
+            "Row Major and Column Major Order",
+            "Sparse Matrices"
+          ]
+        },
+        {
+          "id": "u3t3",
+          "title": "Recursion",
+          "subtopics": [
+            "Principles of Recursion",
+            "Tower of Hanoi",
+            "Backtracking",
+            "Tail Recursion"
+          ]
+        },
+        {
+          "id": "u3t4",
+          "title": "Linked Lists",
+          "subtopics": [
+            "Singly Linked List",
+            "Doubly Linked List",
+            "Circular Linked List",
+            "Insertion, Deletion, Traversal Operations",
+            "Polynomial Representation and Arithmetic"
+          ]
+        },
+        {
+          "id": "u3t5",
+          "title": "Stacks",
+          "subtopics": [
+            "Stack Operations (Push, Pop, Peek)",
+            "Array Implementation of Stack",
+            "Linked List Implementation",
+            "Infix to Postfix/Prefix Conversion",
+            "Postfix Expression Evaluation"
+          ]
+        },
+        {
+          "id": "u3t6",
+          "title": "Queues",
+          "subtopics": [
+            "Simple Queue",
+            "Circular Queue",
+            "Deque (Double-ended Queue)",
+            "Priority Queue",
+            "Array and Linked List Implementation"
+          ]
+        },
+        {
+          "id": "u3t7",
+          "title": "Searching & Hashing",
+          "subtopics": [
+            "Linear / Sequential Search",
+            "Binary Search",
+            "Index Sequential Search",
+            "Hashing Concepts",
+            "Hash Functions",
+            "Collision Resolution Techniques"
+          ]
+        },
+        {
+          "id": "u3t8",
+          "title": "Sorting",
+          "subtopics": [
+            "Insertion Sort",
+            "Selection Sort",
+            "Bubble Sort",
+            "Heap Sort",
+            "Counting Sort",
+            "Bucket Sort",
+            "Comparison of Sorting Algorithms"
+          ]
+        },
+        {
+          "id": "u3t9",
+          "title": "Graphs",
+          "subtopics": [
+            "Graph Representations (Adjacency Matrix, Adjacency List)",
+            "Depth First Search (DFS)",
+            "Breadth First Search (BFS)",
+            "Connected Components"
+          ]
+        },
+        {
+          "id": "u3t10",
+          "title": "Trees",
+          "subtopics": [
+            "Binary Trees and Representations",
+            "Binary Search Trees (BST)",
+            "Complete and Extended Trees",
+            "Threaded Binary Trees",
+            "Tree Traversals (Inorder, Preorder, Postorder)",
+            "Tree Construction from Traversals",
+            "Insertion, Deletion, Search in BST",
+            "Huffman Coding",
+            "AVL Trees",
+            "B-Trees"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "number": 4,
+      "title": "Algorithms",
+      "category": "Programming & Data Structures + Algorithms",
+      "color": "#06b6d4",
+      "icon": "⚙️",
+      "estimatedHours": 15,
+      "topics": [
+        {
+          "id": "u4t1",
+          "title": "Algorithm Analysis",
+          "subtopics": [
+            "Time-Space Tradeoff",
+            "Asymptotic Notations and Properties",
+            "Conditional Asymptotic Notation",
+            "Recurrence Equations",
+            "Analysis of Linear Search"
+          ]
+        },
+        {
+          "id": "u4t2",
+          "title": "Divide & Conquer",
+          "subtopics": [
+            "Binary Search",
+            "Finding Maximum and Minimum",
+            "Merge Sort"
+          ]
+        },
+        {
+          "id": "u4t3",
+          "title": "Dynamic Programming",
+          "subtopics": [
+            "Multistage Graphs",
+            "All-Pairs Shortest Paths (Floyd-Warshall)",
+            "Optimal BSTs"
+          ]
+        },
+        {
+          "id": "u4t4",
+          "title": "Backtracking",
+          "subtopics": [
+            "8-Queens Problem",
+            "Hamiltonian Circuit"
+          ]
+        },
+        {
+          "id": "u4t5",
+          "title": "Graph Algorithms",
+          "subtopics": [
+            "Connected Components",
+            "Spanning Trees (Prim's, Kruskal's)",
+            "Biconnected Components"
+          ]
+        },
+        {
+          "id": "u4t6",
+          "title": "Complexity Theory",
+          "subtopics": [
+            "P and NP Classes",
+            "NP-Hard Problems",
+            "NP-Complete Problems"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "number": 5,
+      "title": "Operating System",
+      "category": "Operating Systems",
+      "color": "#10b981",
+      "icon": "🖥️",
+      "estimatedHours": 22,
+      "topics": [
+        {
+          "id": "u5t1",
+          "title": "OS Introduction & Structure",
+          "subtopics": [
+            "Functions and Responsibilities of OS",
+            "Types of Operating Systems",
+            "System Structure (Hierarchical / Layered)",
+            "I/O Methods and Interrupt Structure",
+            "Command Interpreter / Shell"
+          ]
+        },
+        {
+          "id": "u5t2",
+          "title": "Process Management",
+          "subtopics": [
+            "Process Definition and States",
+            "Process State Transitions",
+            "Parallel Processes",
+            "Kernel and Data Structures",
+            "Context Switching",
+            "Process Control Primitives",
+            "CPU Scheduling (FCFS, SJF, Priority, Round Robin)"
+          ]
+        },
+        {
+          "id": "u5t3",
+          "title": "Synchronization & Deadlock",
+          "subtopics": [
+            "Determinacy and Mutual Exclusion",
+            "Semaphores",
+            "Critical Sections and Monitors",
+            "Inter-process Communication (IPC)",
+            "Deadlock Definition and Conditions",
+            "Deadlock Prevention, Avoidance, Detection and Recovery"
+          ]
+        },
+        {
+          "id": "u5t4",
+          "title": "Memory Management",
+          "subtopics": [
+            "Relocation and Linking",
+            "Fixed and Variable Partitions",
+            "Swapping and Overlays",
+            "Virtual Memory",
+            "Segmentation",
+            "Paging",
+            "Allocation Strategies",
+            "Thrashing and Load Control"
+          ]
+        },
+        {
+          "id": "u5t5",
+          "title": "File & I/O Systems",
+          "subtopics": [
+            "Directory Management",
+            "File System Basics",
+            "File Operations and Organization",
+            "Auxiliary Storage Management",
+            "Programmed I/O",
+            "DMA (Direct Memory Access)",
+            "Interrupt-driven I/O",
+            "Recovery Mechanisms"
+          ]
+        },
+        {
+          "id": "u5t6",
+          "title": "Protection & Security",
+          "subtopics": [
+            "Safeguards and Access Control",
+            "Information Flow Control",
+            "Formal Security Models"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit6",
+      "number": 6,
+      "title": "Database Management System",
+      "category": "Database Management Systems",
+      "color": "#f59e0b",
+      "icon": "🗄️",
+      "estimatedHours": 18,
+      "topics": [
+        {
+          "id": "u6t1",
+          "title": "DBMS Introduction",
+          "subtopics": [
+            "Components and Structure of DBMS",
+            "3-Level Architecture and Mappings",
+            "File System vs DBMS",
+            "Advantages and Drawbacks"
+          ]
+        },
+        {
+          "id": "u6t2",
+          "title": "Relational Model & ER Model",
+          "subtopics": [
+            "Keys (Candidate, Primary, Foreign)",
+            "ER Model (Entities, Attributes, Relationships)",
+            "Cardinality and Participation",
+            "Converting ER to Tables",
+            "Database Schema"
+          ]
+        },
+        {
+          "id": "u6t3",
+          "title": "Normalization",
+          "subtopics": [
+            "Anomalies (Insert, Update, Delete)",
+            "Codd's Rules",
+            "1NF (First Normal Form)",
+            "2NF (Second Normal Form)",
+            "3NF (Third Normal Form)",
+            "BCNF (Boyce-Codd Normal Form)"
+          ]
+        },
+        {
+          "id": "u6t4",
+          "title": "Transactions & Concurrency",
+          "subtopics": [
+            "Transaction Concepts",
+            "ACID Properties",
+            "SQL Transaction Support",
+            "Concurrency Control",
+            "Locking Protocols",
+            "Serializable Schedules",
+            "2-Phase Commit",
+            "Timestamp Ordering"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit7",
+      "number": 7,
+      "title": "Computer Network",
+      "category": "Computer Networks",
+      "color": "#ef4444",
+      "icon": "🌐",
+      "estimatedHours": 20,
+      "topics": [
+        {
+          "id": "u7t1",
+          "title": "Network Fundamentals",
+          "subtopics": [
+            "Data Communication Basics",
+            "Network Topologies",
+            "Network Classification",
+            "Transmission Modes (Parallel/Serial)",
+            "OSI Reference Model",
+            "TCP/IP Model",
+            "Bandwidth, Data Rate, Encoding"
+          ]
+        },
+        {
+          "id": "u7t2",
+          "title": "Data Link Layer",
+          "subtopics": [
+            "Framing",
+            "Flow Control",
+            "Error Control",
+            "MAC Sublayer",
+            "Contention-based protocols",
+            "Polling-based protocols"
+          ]
+        },
+        {
+          "id": "u7t3",
+          "title": "Network Layer",
+          "subtopics": [
+            "Routing Algorithms",
+            "Congestion Control",
+            "Internetworking",
+            "IPv4 Packet Format",
+            "Hierarchical Addressing",
+            "Subnetting",
+            "ARP Protocol",
+            "PPP Protocol",
+            "Bridges and Routers",
+            "Classless IP (CIDR)"
+          ]
+        },
+        {
+          "id": "u7t4",
+          "title": "Transport Layer",
+          "subtopics": [
+            "Process-to-Process Communication",
+            "Sockets",
+            "Multiplexing and Demultiplexing",
+            "UDP Protocol",
+            "TCP Protocol"
+          ]
+        },
+        {
+          "id": "u7t5",
+          "title": "Application Layer",
+          "subtopics": [
+            "HTTP Protocol",
+            "FTP Protocol",
+            "Telnet",
+            "SMTP Protocol",
+            "SNMP Protocol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit8",
+      "number": 8,
+      "title": "Software Engineering",
+      "category": "Software Engineering & Compiler Design",
+      "color": "#f97316",
+      "icon": "🔧",
+      "estimatedHours": 15,
+      "topics": [
+        {
+          "id": "u8t1",
+          "title": "SE Fundamentals",
+          "subtopics": [
+            "Software Characteristics and Metrics",
+            "Process and Product Models",
+            "Waterfall Model",
+            "Prototype Model",
+            "Spiral Model",
+            "Comparison of SDLC Models"
+          ]
+        },
+        {
+          "id": "u8t2",
+          "title": "Project Management",
+          "subtopics": [
+            "Size Estimation (LOC, Function Points)",
+            "Cost Estimation (Delphi, COCOMO)",
+            "Halstead's Science",
+            "Staffing (Putnam Model)"
+          ]
+        },
+        {
+          "id": "u8t3",
+          "title": "Requirements & Design",
+          "subtopics": [
+            "SRS Document Characteristics",
+            "Design Approaches",
+            "Function-oriented Design (DFDs)",
+            "Structured Design",
+            "Object-oriented Introduction"
+          ]
+        },
+        {
+          "id": "u8t4",
+          "title": "Coding & Testing",
+          "subtopics": [
+            "Unit Testing",
+            "Black-box Testing",
+            "White-box Testing",
+            "Debugging",
+            "Program Analysis Tools",
+            "System Testing"
+          ]
+        },
+        {
+          "id": "u8t5",
+          "title": "Quality & Maintenance",
+          "subtopics": [
+            "Musa's Reliability Model",
+            "SQA (ISO 9000, SEI CMM)",
+            "Maintenance Process Models",
+            "Reverse Engineering",
+            "Maintenance Cost Estimation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit9",
+      "number": 9,
+      "title": "Object-Oriented Programming",
+      "category": "Software Engineering & Compiler Design",
+      "color": "#ec4899",
+      "icon": "🧩",
+      "estimatedHours": 12,
+      "topics": [
+        {
+          "id": "u9t1",
+          "title": "OOP Fundamentals",
+          "subtopics": [
+            "Classes and Objects",
+            "Data Abstraction",
+            "Information Hiding",
+            "Encapsulation",
+            "Constructors and Destructors",
+            "Namespaces and References"
+          ]
+        },
+        {
+          "id": "u9t2",
+          "title": "OOP Advanced Concepts",
+          "subtopics": [
+            "Methods and Overloading",
+            "Inheritance (Single, Multiple, Multilevel)",
+            "Polymorphism (Compile-time, Runtime)",
+            "Abstract Classes and Methods",
+            "Exception Handling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit10",
+      "number": 10,
+      "title": "Web-Based Application Development",
+      "category": "Emerging Technologies",
+      "color": "#14b8a6",
+      "icon": "🌍",
+      "estimatedHours": 10,
+      "topics": [
+        {
+          "id": "u10t1",
+          "title": "Web Development Basics",
+          "subtopics": [
+            "Internet Basics",
+            "Web Development Introduction",
+            "Node.js Overview",
+            "Git Version Control",
+            "HTML and CSS",
+            "JavaScript and jQuery",
+            "HTTP Protocol and Forms"
+          ]
+        },
+        {
+          "id": "u10t2",
+          "title": "Web Technologies",
+          "subtopics": [
+            "Sessions and HTTP State",
+            "DOM (Document Object Model)",
+            "XML and DTD",
+            "PHP Overview",
+            "SQL and MySQL Integration",
+            "Database Interaction via Web"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit11",
+      "number": 11,
+      "title": "Theory of Computation",
+      "category": "Software Engineering & Compiler Design",
+      "color": "#a855f7",
+      "icon": "🔣",
+      "estimatedHours": 20,
+      "topics": [
+        {
+          "id": "u11t1",
+          "title": "Formal Language Basics",
+          "subtopics": [
+            "Alphabets, Strings, and Languages",
+            "Automata and Grammars Introduction"
+          ]
+        },
+        {
+          "id": "u11t2",
+          "title": "Finite Automata",
+          "subtopics": [
+            "DFA (Deterministic Finite Automaton)",
+            "NFA (Non-deterministic Finite Automaton)",
+            "Epsilon-NFA",
+            "DFA and NFA Equivalence",
+            "DFA Minimization",
+            "Moore and Mealy Machines"
+          ]
+        },
+        {
+          "id": "u11t3",
+          "title": "Regular Languages",
+          "subtopics": [
+            "Regular Expressions",
+            "Kleene's Theorem",
+            "Pumping Lemma for Regular Languages",
+            "Closure Properties",
+            "Decision Properties"
+          ]
+        },
+        {
+          "id": "u11t4",
+          "title": "Context-Free Languages",
+          "subtopics": [
+            "Context-Free Grammars (CFG)",
+            "Derivation Trees",
+            "Ambiguity in Grammars",
+            "Simplification of CFGs",
+            "Chomsky Normal Form (CNF)",
+            "Greibach Normal Form (GNF)",
+            "Pumping Lemma for CFLs",
+            "Pushdown Automata (PDA)"
+          ]
+        },
+        {
+          "id": "u11t5",
+          "title": "Turing Machines",
+          "subtopics": [
+            "Turing Machine Model",
+            "Variants of TM",
+            "Universal Turing Machine",
+            "Church's Thesis",
+            "Recursive and RE Languages",
+            "Halting Problem",
+            "Undecidability (PCP etc.)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit12",
+      "number": 12,
+      "title": "Internet of Things (IoT)",
+      "category": "Emerging Technologies",
+      "color": "#22c55e",
+      "icon": "📡",
+      "estimatedHours": 10,
+      "topics": [
+        {
+          "id": "u12t1",
+          "title": "IoT Fundamentals",
+          "subtopics": [
+            "IoT Definitions and Functional Requirements",
+            "IoT Motivation and Architecture",
+            "Web 3.0 View of IoT",
+            "Ubiquitous Applications",
+            "Four Pillars of IoT",
+            "DNA of IoT"
+          ]
+        },
+        {
+          "id": "u12t2",
+          "title": "IoT Middleware & Protocols",
+          "subtopics": [
+            "Middleware for IoT (Communication, Security)",
+            "M2M, WSN, SCADA, RFID Protocols",
+            "IEEE 802.15.4",
+            "BACnet, Modbus, KNX, Zigbee",
+            "Web of Things vs IoT",
+            "Cloud of Things",
+            "Industrial IoT (IIoT)",
+            "IoT Security and Privacy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit13",
+      "number": 13,
+      "title": "Artificial Intelligence",
+      "category": "Emerging Technologies",
+      "color": "#3b82f6",
+      "icon": "🤖",
+      "estimatedHours": 12,
+      "topics": [
+        {
+          "id": "u13t1",
+          "title": "AI Fundamentals",
+          "subtopics": [
+            "Introduction to AI",
+            "Production Systems",
+            "Problem Solving"
+          ]
+        },
+        {
+          "id": "u13t2",
+          "title": "Search Strategies",
+          "subtopics": [
+            "Depth First Search (DFS)",
+            "Breadth First Search (BFS)",
+            "Hill Climbing",
+            "A* Search",
+            "Best First Search"
+          ]
+        },
+        {
+          "id": "u13t3",
+          "title": "Knowledge Representation",
+          "subtopics": [
+            "Predicate Logic",
+            "Frames",
+            "Rules",
+            "Forward Chaining",
+            "Backward Chaining",
+            "Bayesian Networks"
+          ]
+        },
+        {
+          "id": "u13t4",
+          "title": "AI Applications",
+          "subtopics": [
+            "Planning",
+            "Machine Learning Basics",
+            "Expert Systems"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit14",
+      "number": 14,
+      "title": "Fundamentals of E-Commerce",
+      "category": "Emerging Technologies",
+      "color": "#84cc16",
+      "icon": "🛒",
+      "estimatedHours": 8,
+      "topics": [
+        {
+          "id": "u14t1",
+          "title": "E-Commerce Basics",
+          "subtopics": [
+            "E-Commerce Framework and Applications",
+            "Internet as Infrastructure",
+            "Firewalls and Network Security"
+          ]
+        },
+        {
+          "id": "u14t2",
+          "title": "E-Commerce Technologies",
+          "subtopics": [
+            "Payment Systems (Smart Cards, Credit Cards)",
+            "Digital Tokens",
+            "EDI (Electronic Data Interchange)",
+            "Digital Libraries",
+            "Corporate Data Warehouses"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit15",
+      "number": 15,
+      "title": "Multimedia",
+      "category": "Emerging Technologies",
+      "color": "#fb923c",
+      "icon": "🎬",
+      "estimatedHours": 8,
+      "topics": [
+        {
+          "id": "u15t1",
+          "title": "Multimedia Basics",
+          "subtopics": [
+            "Hardware and Software for Multimedia",
+            "Multimedia Applications",
+            "Audio Formats (MP3, MIDI)",
+            "Graphics Formats",
+            "Text in Multimedia",
+            "Animation",
+            "Video Formats"
+          ]
+        },
+        {
+          "id": "u15t2",
+          "title": "Multimedia Design",
+          "subtopics": [
+            "Project Design",
+            "Multimedia Tools",
+            "Future Trends in Multimedia"
+          ]
+        }
+      ]
+    }
+  ]
+}

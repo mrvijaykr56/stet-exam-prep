@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bihar STET 2026 Computer Science Paper II — Complete exam preparation platform with syllabus, practice tests, mock exams, and progress tracking.">
+  <meta name="theme-color" content="#1e3a5f">
+  <link rel="manifest" href="manifest.json">
+  <title>Bihar STET 2026 CS Prep — Dashboard</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+  <!-- Google Fonts: non-blocking via preconnect + link (replaces @import in CSS) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/components.css">
+
+</head>
+<body>
+
+<!-- ── Navigation ── -->
+<nav class="navbar" aria-label="Main navigation">
+  <div class="navbar__inner">
+    <a href="index.html" class="navbar__brand" aria-label="Bihar STET 2026 Home">
+      <div class="navbar__logo">🎓</div>
+      <div>
+        <span class="navbar__title">STET 2026 CS</span>
+        <span class="navbar__subtitle">Bihar Paper II Prep</span>
+      </div>
+    </a>
+    <nav class="navbar__nav" aria-label="Page navigation">
+      <a href="index.html"    class="navbar__link" id="nav-home">🏠 Dashboard</a>
+      <a href="syllabus.html" class="navbar__link" id="nav-syllabus">📚 Syllabus</a>
+      <a href="materials.html"class="navbar__link" id="nav-materials">📖 Materials</a>
+      <a href="practice.html" class="navbar__link" id="nav-practice">🎯 Practice</a>
+      <a href="mock-exam.html"class="navbar__link" id="nav-exam">📝 Mock Exam</a>
+      <a href="progress.html" class="navbar__link" id="nav-progress">📊 Progress</a>
+    </nav>
+    <div class="navbar__actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+        <span id="theme-icon">🌙</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav" id="mobile-nav" role="dialog" aria-label="Mobile navigation">
+  <div class="mobile-nav__backdrop"></div>
+  <div class="mobile-nav__panel">
+    <a href="index.html"    class="navbar__link">🏠 Dashboard</a>
+    <a href="syllabus.html" class="navbar__link">📚 Syllabus</a>
+    <a href="materials.html"class="navbar__link">📖 Materials</a>
+    <a href="practice.html" class="navbar__link">🎯 Practice</a>
+    <a href="mock-exam.html"class="navbar__link">📝 Mock Exam</a>
+    <a href="progress.html" class="navbar__link">📊 Progress</a>
+  </div>
+</div>
+
+<main class="page-wrapper">
+
+  <!-- Hero Banner -->
+  <div style="background:linear-gradient(135deg,#0f172a 0%,#1e3a5f 50%,#312e81 100%);padding:3.5rem 0;position:relative;overflow:hidden;">
+    <div style="position:absolute;top:-60px;right:-60px;width:350px;height:350px;background:radial-gradient(circle,rgba(99,102,241,0.25) 0%,transparent 70%);pointer-events:none;"></div>
+    <div style="position:absolute;bottom:-40px;left:10%;width:250px;height:250px;background:radial-gradient(circle,rgba(139,92,246,0.2) 0%,transparent 70%);pointer-events:none;"></div>
+    <div class="container container--wide" style="position:relative;z-index:1;">
+      <div class="hero-grid">
+
+        <div>
+          <div style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);border-radius:9999px;padding:0.25rem 1rem;font-size:0.75rem;color:rgba(255,255,255,0.8);margin-bottom:1rem;text-transform:uppercase;letter-spacing:0.05em;">
+            🎓 Bihar STET 2026 · CS Paper II
+          </div>
+          <h1 style="font-size:2.5rem;font-weight:900;color:#fff;line-height:1.15;margin-bottom:1rem;">
+            Your STET 2026<br>Preparation Hub
+          </h1>
+          <p style="color:rgba(255,255,255,0.72);font-size:1rem;margin-bottom:1.5rem;max-width:480px;">
+            Complete Computer Science Paper II prep — all 15 units, interactive syllabus, practice questions, mock exams and progress tracking.
+          </p>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="syllabus.html" class="btn btn--primary btn--lg">📚 Start Studying</a>
+            <a href="mock-exam.html" class="btn btn--secondary btn--lg" style="color:#fff;border-color:rgba(255,255,255,0.4);background:rgba(255,255,255,0.1);">📝 Take Mock Exam</a>
+          </div>
+        </div>
+        <div style="display:flex;justify-content:flex-end;">
+          <div class="card card--glass" style="max-width:320px;width:100%;">
+            <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1.25rem;">
+              <div style="display:inline-flex;align-items:center;justify-content:center;position:relative;width:80px;height:80px;">
+                <svg width="80" height="80" viewBox="0 0 80 80" style="transform:rotate(-90deg)">
+                  <defs>
+                    <linearGradient id="heroRing" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" style="stop-color:#6366f1"/>
+                      <stop offset="100%" style="stop-color:#818cf8"/>
+                    </linearGradient>
+                  </defs>
+                  <circle cx="40" cy="40" r="32" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="6"/>
+                  <circle id="hero-ring" cx="40" cy="40" r="32" fill="none" stroke="url(#heroRing)" stroke-width="6"
+                    stroke-linecap="round" stroke-dasharray="201" stroke-dashoffset="201"/>
+                </svg>
+                <div style="position:absolute;text-align:center;">
+                  <div id="hero-pct" style="font-size:1.1rem;font-weight:900;color:#fff;">0%</div>
+                </div>
+              </div>
+              <div>
+                <div style="color:#fff;font-weight:700;font-size:1rem;">Overall Progress</div>
+                <div id="hero-topics" style="color:rgba(255,255,255,0.65);font-size:0.8rem;margin-top:2px;">0 topics done</div>
+              </div>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:0.5rem;" id="hero-unit-pills">
+              <!-- Filled by JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-content container--wide">
+
+    <!-- Stats Row -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1rem;margin-bottom:2rem;" id="stats-row">
+      <div class="stat-card animate-fadeIn" style="animation-delay:0.05s;">
+        <div class="stat-card__icon" style="background:#e0e7ff;">📚</div>
+        <div>
+          <div class="stat-card__value" id="stat-topics">—</div>
+          <div class="stat-card__label">Topics Completed</div>
+        </div>
+      </div>
+      <div class="stat-card animate-fadeIn" style="animation-delay:0.1s;">
+        <div class="stat-card__icon" style="background:#dcfce7;">🔥</div>
+        <div>
+          <div class="stat-card__value" id="stat-streak">0</div>
+          <div class="stat-card__label">Day Streak</div>
+        </div>
+      </div>
+      <div class="stat-card animate-fadeIn" style="animation-delay:0.15s;">
+        <div class="stat-card__icon" style="background:#fef9c3;">📝</div>
+        <div>
+          <div class="stat-card__value" id="stat-exams">0</div>
+          <div class="stat-card__label">Tests Taken</div>
+        </div>
+      </div>
+      <div class="stat-card animate-fadeIn" style="animation-delay:0.2s;">
+        <div class="stat-card__icon" style="background:#fce7f3;">🎯</div>
+        <div>
+          <div class="stat-card__value" id="stat-daily">—</div>
+          <div class="stat-card__label">Daily Target</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dashboard-main-grid">
+
+
+      <!-- Quick Navigation -->
+      <div>
+        <div class="section-header" style="margin-bottom:1rem;">
+          <div class="section-title">🚀 Quick Access</div>
+        </div>
+        <div class="quick-nav">
+          <a href="syllabus.html" class="quick-nav-card animate-fadeIn" style="animation-delay:0.1s;">
+            <div class="quick-nav-card__icon" style="background:linear-gradient(135deg,#6366f1,#818cf8);">📚</div>
+            <div class="quick-nav-card__label">Syllabus</div>
+            <div class="quick-nav-card__sub">15 Units · All Topics</div>
+          </a>
+          <a href="practice.html" class="quick-nav-card animate-fadeIn" style="animation-delay:0.15s;">
+            <div class="quick-nav-card__icon" style="background:linear-gradient(135deg,#10b981,#34d399);">🎯</div>
+            <div class="quick-nav-card__label">Practice</div>
+            <div class="quick-nav-card__sub">50+ MCQ Questions</div>
+          </a>
+          <a href="mock-exam.html" class="quick-nav-card animate-fadeIn" style="animation-delay:0.2s;">
+            <div class="quick-nav-card__icon" style="background:linear-gradient(135deg,#5b21b6,#7c3aed);">📝</div>
+            <div class="quick-nav-card__label">Mock Exam</div>
+            <div class="quick-nav-card__sub">Timed Full Test</div>
+          </a>
+          <a href="materials.html" class="quick-nav-card animate-fadeIn" style="animation-delay:0.25s;">
+            <div class="quick-nav-card__icon" style="background:linear-gradient(135deg,#0ea5e9,#38bdf8);">📖</div>
+            <div class="quick-nav-card__label">Materials</div>
+            <div class="quick-nav-card__sub">Notes & Videos</div>
+          </a>
+          <a href="progress.html" class="quick-nav-card animate-fadeIn" style="animation-delay:0.3s;">
+            <div class="quick-nav-card__icon" style="background:linear-gradient(135deg,#f59e0b,#fbbf24);">📊</div>
+            <div class="quick-nav-card__label">Progress</div>
+            <div class="quick-nav-card__sub">Stats & Badges</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Streak + Quote -->
+      <div style="display:flex;flex-direction:column;gap:1rem;">
+        <div class="streak-card" id="streak-display">
+          <div class="streak-flame">🔥</div>
+          <div>
+            <div class="streak-count" id="streak-num">0</div>
+            <div class="streak-label" id="streak-label">Day Streak</div>
+          </div>
+        </div>
+        <div class="quote-card" id="quote-display">
+          <div class="quote-card__text">Loading your daily inspiration…</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recent Activity & Unit Progress -->
+    <div class="dashboard-bottom-grid">
+
+
+      <!-- Recent Results -->
+      <div class="card">
+        <div class="section-header" style="margin-bottom:1rem;">
+          <div class="section-title" style="font-size:1rem;">📈 Recent Results</div>
+          <a href="progress.html" class="btn btn--sm btn--ghost">View All</a>
+        </div>
+        <div id="recent-results">
+          <div class="empty-state" style="padding:1.5rem;">
+            <div class="empty-state__icon">📝</div>
+            <div class="empty-state__title">No tests taken yet</div>
+            <a href="practice.html" class="btn btn--sm btn--primary" style="margin-top:0.75rem;">Start Practice</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Top Units -->
+      <div class="card">
+        <div class="section-header" style="margin-bottom:1rem;">
+          <div class="section-title" style="font-size:1rem;">🎯 High-Priority Units</div>
+          <a href="syllabus.html" class="btn btn--sm btn--ghost">Study Now</a>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:0.75rem;">
+          <div style="display:flex;align-items:center;gap:0.75rem;padding:0.6rem;background:var(--bg-surface-2);border-radius:8px;">
+            <span style="font-size:1.2rem;">⚡</span>
+            <div style="flex:1;font-size:0.85rem;font-weight:600;">Digital Logic</div>
+            <span class="badge badge--danger">High</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:0.75rem;padding:0.6rem;background:var(--bg-surface-2);border-radius:8px;">
+            <span style="font-size:1.2rem;">📦</span>
+            <div style="flex:1;font-size:0.85rem;font-weight:600;">Data Structures</div>
+            <span class="badge badge--danger">High</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:0.75rem;padding:0.6rem;background:var(--bg-surface-2);border-radius:8px;">
+            <span style="font-size:1.2rem;">🖥️</span>
+            <div style="flex:1;font-size:0.85rem;font-weight:600;">Operating Systems</div>
+            <span class="badge badge--danger">High</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:0.75rem;padding:0.6rem;background:var(--bg-surface-2);border-radius:8px;">
+            <span style="font-size:1.2rem;">🗄️</span>
+            <div style="flex:1;font-size:0.85rem;font-weight:600;">DBMS</div>
+            <span class="badge badge--warning">Medium</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:0.75rem;padding:0.6rem;background:var(--bg-surface-2);border-radius:8px;">
+            <span style="font-size:1.2rem;">🌐</span>
+            <div style="flex:1;font-size:0.85rem;font-weight:600;">Computer Networks</div>
+            <span class="badge badge--warning">Medium</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<script type="module">
+  import { initApp, showToast, getMotivationalQuote, fetchJSON, animateCounter, requestNotificationPermission } from './js/app.js';
+  import {
+    getProgress, getOverallProgress, getCurrentStreak,
+    getResults, calculateDailyTarget, updateStreak,
+  } from './js/storage.js';
+
+
+  initApp();
+
+  async function loadDashboard() {
+    // Quote
+    const q = getMotivationalQuote();
+    const quoteEl = document.getElementById('quote-display');
+    if (quoteEl) quoteEl.innerHTML = `<div class="quote-card__text">${q.text}</div><div class="quote-card__author">— ${q.author}</div>`;
+
+    // Streak
+    const streak = getCurrentStreak();
+    const streakEl = document.getElementById('streak-num');
+    const streakLabel = document.getElementById('streak-label');
+    if (streakEl) streakEl.textContent = streak;
+    if (streakLabel) streakLabel.textContent = streak === 1 ? 'Day Streak' : 'Days Streak';
+
+    // Results
+    const results = getResults();
+    const resultsEl = document.getElementById('recent-results');
+    if (resultsEl && results.length > 0) {
+      resultsEl.innerHTML = results.slice(0, 4).map(r => `
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:0.6rem;border-bottom:1px solid var(--border-color);font-size:0.85rem;">
+          <span style="color:var(--text-secondary);">${r.label || r.type}</span>
+          <span class="badge ${r.percent >= 75 ? 'badge--success' : r.percent >= 50 ? 'badge--warning' : 'badge--danger'}">${r.percent}%</span>
+        </div>
+      `).join('');
+    }
+
+    document.getElementById('stat-streak').textContent = streak;
+    document.getElementById('stat-exams').textContent = results.length;
+
+    // Load syllabus for progress
+    try {
+      const sData = await fetchJSON('./data/syllabus.json');
+      const units = sData.units;
+      const progress = getProgress();
+      const overall = getOverallProgress(units);
+      let total = 0, done = 0;
+      units.forEach(u => u.topics.forEach(t => { total++; if (progress[t.id] === 'done') done++; }));
+      const daily = calculateDailyTarget(units);
+
+      // Hero ring
+      const ring = document.getElementById('hero-ring');
+      const circumference = 201;
+      if (ring) ring.style.strokeDashoffset = circumference - (overall / 100) * circumference;
+
+      const pctEl = document.getElementById('hero-pct');
+      if (pctEl) pctEl.textContent = `${overall}%`;
+
+      const topicsEl = document.getElementById('hero-topics');
+      if (topicsEl) topicsEl.textContent = `${done} of ${total} topics done`;
+
+      // Unit pills in hero
+      const pillEl = document.getElementById('hero-unit-pills');
+      if (pillEl) {
+        const topUnits = units.slice(0, 4);
+        pillEl.innerHTML = topUnits.map(u => {
+          let ud = 0;
+          u.topics.forEach(t => { if (progress[t.id] === 'done') ud++; });
+          const pct = Math.round(ud / u.topics.length * 100);
+          return `<div style="display:flex;align-items:center;gap:0.5rem;">
+            <span style="font-size:0.75rem;color:rgba(255,255,255,0.65);min-width:90px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Unit ${u.number}: ${u.title}</span>
+            <div style="flex:1;height:4px;background:rgba(255,255,255,0.2);border-radius:9999px;overflow:hidden;">
+              <div style="height:100%;width:${pct}%;background:linear-gradient(90deg,#6366f1,#818cf8);border-radius:9999px;transition:width 1s ease;"></div>
+            </div>
+            <span style="font-size:0.7rem;color:rgba(255,255,255,0.6);min-width:30px;text-align:right;">${pct}%</span>
+          </div>`;
+        }).join('');
+      }
+
+      document.getElementById('stat-topics').textContent = `${done}/${total}`;
+      document.getElementById('stat-daily').textContent = daily;
+
+    } catch {
+      document.getElementById('stat-topics').textContent = '—';
+      document.getElementById('stat-daily').textContent = '—';
+    }
+  }
+
+  loadDashboard();
+  // Note: updateStreak() is intentionally NOT called here.
+  // Streak must only be updated on genuine study activity (practice, exam, marking topics),
+  // not on every dashboard visit — which would let users earn streaks without studying.
+</script>
+
+</body>
+</html>

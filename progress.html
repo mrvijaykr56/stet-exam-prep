@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bihar STET 2026 CS Progress Dashboard — Track your study progress, streaks, badges and exam history.">
+  <title>My Progress — Bihar STET 2026 CS Prep</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+  <!-- Google Fonts: non-blocking via preconnect + link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/components.css">
+
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="navbar__inner">
+    <a href="index.html" class="navbar__brand">
+      <div class="navbar__logo">🎓</div>
+      <div><span class="navbar__title">STET 2026 CS</span><span class="navbar__subtitle">Bihar Paper II Prep</span></div>
+    </a>
+    <nav class="navbar__nav">
+      <a href="index.html" class="navbar__link">🏠 Dashboard</a>
+      <a href="syllabus.html" class="navbar__link">📚 Syllabus</a>
+      <a href="materials.html" class="navbar__link">📖 Materials</a>
+      <a href="practice.html" class="navbar__link">🎯 Practice</a>
+      <a href="mock-exam.html" class="navbar__link">📝 Mock Exam</a>
+      <a href="progress.html" class="navbar__link active">📊 Progress</a>
+    </nav>
+    <div class="navbar__actions">
+      <button class="theme-toggle" id="theme-toggle"><span id="theme-icon">🌙</span></button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span class="hamburger__line"></span><span class="hamburger__line"></span><span class="hamburger__line"></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobile-nav">
+  <div class="mobile-nav__backdrop"></div>
+  <div class="mobile-nav__panel">
+    <a href="index.html" class="navbar__link">🏠 Dashboard</a>
+    <a href="syllabus.html" class="navbar__link">📚 Syllabus</a>
+    <a href="materials.html" class="navbar__link">📖 Materials</a>
+    <a href="practice.html" class="navbar__link">🎯 Practice</a>
+    <a href="mock-exam.html" class="navbar__link">📝 Mock Exam</a>
+    <a href="progress.html" class="navbar__link">📊 Progress</a>
+  </div>
+</div>
+
+<main class="page-wrapper">
+  <div class="page-header">
+    <div class="page-header__inner">
+      <div class="page-header__tag">📊 Statistics</div>
+      <h1 class="page-header__title">My Progress</h1>
+      <p class="page-header__subtitle">Track your overall completion, unit progress, study streak, badges and exam history.</p>
+    </div>
+  </div>
+
+  <div class="page-content">
+    <div id="progress-app">
+      <div class="loading-overlay"><div class="spinner"></div><span>Loading your progress…</span></div>
+    </div>
+  </div>
+</main>
+
+<script type="module">
+  import { initApp } from './js/app.js';
+  import { initProgress } from './js/progress.js';
+  initApp();
+  initProgress();
+</script>
+</body>
+</html>

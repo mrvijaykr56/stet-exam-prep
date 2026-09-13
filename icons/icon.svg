@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Dark navy background with rounded corners -->
+  <rect width="512" height="512" rx="96" fill="#1e3a5f"/>
+  <!-- Subtle radial gradient overlay -->
+  <radialGradient id="g" cx="60%" cy="30%" r="70%">
+    <stop offset="0%" stop-color="#4338ca" stop-opacity="0.6"/>
+    <stop offset="100%" stop-color="#1e3a5f" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="512" height="512" rx="96" fill="url(#g)"/>
+  <!-- Graduation cap emoji -->
+  <text x="256" y="340" font-size="300" text-anchor="middle"
+        font-family="Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji, sans-serif">🎓</text>
+</svg>

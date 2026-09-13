@@ -1,0 +1,312 @@
+{
+  "materials": [
+    {
+      "id": "m1",
+      "unit": "unit1",
+      "topicId": "u1t3",
+      "title": "Boolean Algebra & K-Map — Complete Notes",
+      "type": "notes",
+      "difficulty": "medium",
+      "description": "Comprehensive notes covering Boolean algebra, logic gates, SOP/POS, and K-map minimization up to 4 variables.",
+      "url": "https://www.geeksforgeeks.org/boolean-algebra/",
+      "tags": ["boolean", "kmap", "gates", "digital-logic"]
+    },
+    {
+      "id": "m2",
+      "unit": "unit1",
+      "topicId": "u1t1",
+      "title": "Number System Conversions — Video Tutorial",
+      "type": "video",
+      "difficulty": "easy",
+      "description": "Step-by-step video guide for binary, octal, hex, BCD and Gray code conversions with examples.",
+      "url": "https://www.youtube.com/results?search_query=number+system+conversion+Bihar+STET",
+      "tags": ["number-system", "binary", "hex", "conversion"]
+    },
+    {
+      "id": "m3",
+      "unit": "unit1",
+      "topicId": "u1t6",
+      "title": "Flip-Flops & Sequential Circuits",
+      "type": "notes",
+      "difficulty": "hard",
+      "description": "Detailed notes on SR, JK, D, T flip-flops, counters, registers, and state transition diagrams.",
+      "url": "https://www.geeksforgeeks.org/flip-flop-types-their-conversion-and-applications/",
+      "tags": ["flip-flop", "sequential", "counter", "register"]
+    },
+    {
+      "id": "m4",
+      "unit": "unit2",
+      "topicId": "u2t2",
+      "title": "Hamming Code — Error Detection & Correction",
+      "type": "notes",
+      "difficulty": "medium",
+      "description": "Complete explanation of parity bits, checksum, and Hamming code with worked examples.",
+      "url": "https://www.geeksforgeeks.org/hamming-code-in-computer-network/",
+      "tags": ["hamming", "error-correction", "parity"]
+    },
+    {
+      "id": "m5",
+      "unit": "unit3",
+      "topicId": "u3t10",
+      "title": "Trees — BST, AVL, B-Trees Complete Guide",
+      "type": "notes",
+      "difficulty": "hard",
+      "description": "Comprehensive notes on binary trees, BST operations, AVL rotations, B-Trees, and Huffman coding.",
+      "url": "https://www.geeksforgeeks.org/binary-search-tree-data-structure/",
+      "tags": ["BST", "AVL", "B-tree", "trees", "huffman"]
+    },
+    {
+      "id": "m6",
+      "unit": "unit3",
+      "topicId": "u3t8",
+      "title": "Sorting Algorithms — Visualized",
+      "type": "video",
+      "difficulty": "medium",
+      "description": "Visual explanations of all sorting algorithms with time/space complexity comparison.",
+      "url": "https://www.youtube.com/results?search_query=sorting+algorithms+data+structures",
+      "tags": ["sorting", "bubble", "merge", "heap", "insertion"]
+    },
+    {
+      "id": "m7",
+      "unit": "unit5",
+      "topicId": "u5t3",
+      "title": "Deadlock — Conditions, Prevention & Banker's Algorithm",
+      "type": "notes",
+      "difficulty": "hard",
+      "description": "In-depth notes on deadlock conditions, Coffman conditions, prevention, avoidance, and Banker's algorithm.",
+      "url": "https://www.geeksforgeeks.org/introduction-of-deadlock-in-operating-system/",
+      "tags": ["deadlock", "bankers", "semaphore", "OS"]
+    },
+    {
+      "id": "m8",
+      "unit": "unit5",
+      "topicId": "u5t2",
+      "title": "CPU Scheduling Algorithms",
+      "type": "notes",
+      "difficulty": "medium",
+      "description": "FCFS, SJF, Priority, Round Robin scheduling with Gantt charts and solved examples.",
+      "url": "https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/",
+      "tags": ["scheduling", "FCFS", "SJF", "round-robin", "OS"]
+    },
+    {
+      "id": "m9",
+      "unit": "unit5",
+      "topicId": "u5t4",
+      "title": "Virtual Memory & Paging",
+      "type": "video",
+      "difficulty": "hard",
+      "description": "Video tutorial on virtual memory, paging, segmentation, page replacement algorithms, and thrashing.",
+      "url": "https://www.youtube.com/results?search_query=virtual+memory+paging+operating+system",
+      "tags": ["paging", "virtual-memory", "segmentation", "thrashing"]
+    },
+    {
+      "id": "m10",
+      "unit": "unit6",
+      "topicId": "u6t3",
+      "title": "Database Normalization (1NF to BCNF)",
+      "type": "notes",
+      "difficulty": "medium",
+      "description": "Complete normalization guide from 1NF to BCNF with examples, anomalies, and Codd's rules.",
+      "url": "https://www.geeksforgeeks.org/introduction-of-database-normalization/",
+      "tags": ["normalization", "1NF", "2NF", "3NF", "BCNF", "DBMS"]
+    },
+    {
+      "id": "m11",
+      "unit": "unit6",
+      "topicId": "u6t4",
+      "title": "Transactions & Concurrency Control",
+      "type": "notes",
+      "difficulty": "hard",
+      "description": "ACID properties, serializable schedules, locking protocols, 2-phase locking, and timestamp ordering.",
+      "url": "https://www.geeksforgeeks.org/concurrency-control-in-dbms/",
+      "tags": ["ACID", "transactions", "concurrency", "2PL", "DBMS"]
+    },
+    {
+      "id": "m12",
+      "unit": "unit7",
+      "topicId": "u7t1",
+      "title": "OSI vs TCP/IP Model — Layer by Layer",
+      "type": "notes",
+      "difficulty": "easy",
+      "description": "Detailed comparison of OSI and TCP/IP models with functions of each layer.",
+      "url": "https://www.geeksforgeeks.org/layers-of-osi-model/",
+      "tags": ["OSI", "TCP/IP", "networking", "layers"]
+    },
+    {
+      "id": "m13",
+      "unit": "unit7",
+      "topicId": "u7t3",
+      "title": "Subnetting & IP Addressing",
+      "type": "notes",
+      "difficulty": "hard",
+      "description": "IPv4 addressing, subnetting, CIDR notation, ARP, and routing with practice problems.",
+      "url": "https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/",
+      "tags": ["subnetting", "IP", "CIDR", "ARP", "networking"]
+    },
+    {
+      "id": "m14",
+      "unit": "unit8",
+      "topicId": "u8t1",
+      "title": "SDLC Models Comparison",
+      "type": "notes",
+      "difficulty": "easy",
+      "description": "Waterfall, Prototype, Spiral, and Agile models — comparison, advantages, and use cases.",
+      "url": "https://www.geeksforgeeks.org/software-development-life-cycle-sdlc/",
+      "tags": ["SDLC", "waterfall", "spiral", "agile", "SE"]
+    },
+    {
+      "id": "m15",
+      "unit": "unit11",
+      "topicId": "u11t2",
+      "title": "DFA and NFA — Theory of Computation",
+      "type": "notes",
+      "difficulty": "hard",
+      "description": "DFA and NFA construction, equivalence proofs, epsilon-NFA, minimization, and regular language properties.",
+      "url": "https://www.geeksforgeeks.org/introduction-of-finite-automata/",
+      "tags": ["DFA", "NFA", "automata", "TOC", "regular-language"]
+    },
+    {
+      "id": "m16",
+      "unit": "unit13",
+      "topicId": "u13t2",
+      "title": "AI Search Strategies",
+      "type": "notes",
+      "difficulty": "medium",
+      "description": "BFS, DFS, Hill Climbing, A* algorithm, and heuristic search explained with examples.",
+      "url": "https://www.geeksforgeeks.org/search-algorithms-in-ai/",
+      "tags": ["AI", "search", "A-star", "BFS", "DFS", "heuristic"]
+    },
+    {
+      "id": "m17",
+      "unit": "unit4",
+      "topicId": "u4t3",
+      "title": "Dynamic Programming — All Pairs Shortest Path",
+      "type": "notes",
+      "difficulty": "hard",
+      "description": "Floyd-Warshall, Multistage Graphs, Optimal BST with complete derivations.",
+      "url": "https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/",
+      "tags": ["dynamic-programming", "Floyd-Warshall", "DP", "algorithms"]
+    },
+    {
+      "id": "m18",
+      "unit": "unit9",
+      "topicId": "u9t2",
+      "title": "OOP Concepts — Inheritance & Polymorphism",
+      "type": "notes",
+      "difficulty": "medium",
+      "description": "Classes, objects, inheritance types, polymorphism, abstract classes, and exception handling in C++/Java.",
+      "url": "https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/",
+      "tags": ["OOP", "inheritance", "polymorphism", "abstraction"]
+    },
+    {
+      "id": "m19",
+      "unit": "unit12",
+      "topicId": "u12t1",
+      "title": "IoT Architecture & Fundamentals",
+      "type": "notes",
+      "difficulty": "easy",
+      "description": "IoT architecture layers, functional requirements, use cases, and four pillars explained.",
+      "url": "https://www.geeksforgeeks.org/introduction-to-internet-of-things/",
+      "tags": ["IoT", "architecture", "M2M", "sensors"]
+    },
+    {
+      "id": "m20",
+      "unit": "unit3",
+      "topicId": "u3t5",
+      "title": "Stack Applications — Infix to Postfix",
+      "type": "notes",
+      "difficulty": "medium",
+      "description": "Stack data structure, infix/postfix/prefix conversion and evaluation with step-by-step examples.",
+      "url": "https://www.geeksforgeeks.org/stack-data-structure/",
+      "tags": ["stack", "postfix", "infix", "expression"]
+    },
+    {
+      "id": "m21",
+      "unit": "unit10",
+      "topicId": "u10t1",
+      "title": "Web Development Basics — HTML, CSS, JS & Node.js",
+      "type": "notes",
+      "difficulty": "easy",
+      "description": "Full web development introduction covering HTML5, CSS3, DOM manipulation, JS, Node.js, and HTTP protocols.",
+      "url": "https://www.geeksforgeeks.org/web-development/",
+      "tags": ["web-dev", "HTML", "CSS", "JavaScript", "DOM", "NodeJS"]
+    },
+    {
+      "id": "m22",
+      "unit": "unit14",
+      "topicId": "u14t1",
+      "title": "Fundamentals of E-Commerce & Payment Systems",
+      "type": "notes",
+      "difficulty": "easy",
+      "description": "Overview of e-commerce frameworks, network security, firewalls, EDI, and digital payment systems.",
+      "url": "https://www.geeksforgeeks.org/e-commerce-introduction/",
+      "tags": ["e-commerce", "EDI", "payment-systems", "firewalls", "security"]
+    },
+    {
+      "id": "m23",
+      "unit": "unit15",
+      "topicId": "u15t1",
+      "title": "Multimedia Basics — Audio, Graphics & Video Formats",
+      "type": "notes",
+      "difficulty": "easy",
+      "description": "Introduction to multimedia hardware/software, MP3, MIDI, raster vs vector graphics, animation, and video codecs.",
+      "url": "https://www.geeksforgeeks.org/multimedia-system-introduction/",
+      "tags": ["multimedia", "audio", "MP3", "MIDI", "graphics", "video"]
+    },
+    {
+      "id": "m24",
+      "unit": "unit4",
+      "topicId": "u4t6",
+      "title": "Complexity Theory — P, NP, NP-Hard & NP-Complete",
+      "type": "notes",
+      "difficulty": "hard",
+      "description": "Comprehensive explanation of P vs NP decision problems, polynomial reductions, and famous NP-Complete problems.",
+      "url": "https://www.geeksforgeeks.org/types-of-complexity-classes-p-np-co-np-np-hard-and-np-complete/",
+      "tags": ["complexity", "P", "NP", "NP-Complete", "algorithms"]
+    },
+    {
+      "id": "m25",
+      "unit": "unit11",
+      "topicId": "u11t5",
+      "title": "Turing Machines & Undecidability",
+      "type": "notes",
+      "difficulty": "hard",
+      "description": "Turing machine model, variants, Universal Turing Machine, Church-Turing thesis, and the Halting Problem proof.",
+      "url": "https://www.geeksforgeeks.org/turing-machine-in-toc/",
+      "tags": ["TOC", "Turing-Machine", "Halting-Problem", "undecidability"]
+    },
+    {
+      "id": "m26",
+      "unit": "unit12",
+      "topicId": "u12t2",
+      "title": "IoT Protocols — MQTT, Zigbee, WSN & SCADA",
+      "type": "notes",
+      "difficulty": "medium",
+      "description": "Detailed guide on IEEE 802.15.4, Zigbee, Modbus, MQTT, Cloud of Things, and IIoT security.",
+      "url": "https://www.geeksforgeeks.org/protocols-in-internet-of-things-iot/",
+      "tags": ["IoT", "MQTT", "Zigbee", "WSN", "SCADA", "protocols"]
+    },
+    {
+      "id": "m27",
+      "unit": "unit13",
+      "topicId": "u13t3",
+      "title": "Expert Systems & Knowledge Representation",
+      "type": "notes",
+      "difficulty": "medium",
+      "description": "Predicate logic, forward and backward chaining, production rules, frames, and expert system architecture.",
+      "url": "https://www.geeksforgeeks.org/expert-systems/",
+      "tags": ["AI", "expert-systems", "knowledge-representation", "forward-chaining"]
+    },
+    {
+      "id": "m28",
+      "unit": "unit8",
+      "topicId": "u8t4",
+      "title": "Software Testing — Black-Box & White-Box Techniques",
+      "type": "notes",
+      "difficulty": "medium",
+      "description": "Unit testing, integration testing, boundary value analysis, equivalence partitioning, and cyclomatic complexity.",
+      "url": "https://www.geeksforgeeks.org/software-engineering-software-testing/",
+      "tags": ["SE", "testing", "black-box", "white-box", "QA"]
+    }
+  ]
+}

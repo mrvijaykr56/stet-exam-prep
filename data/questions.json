@@ -1,0 +1,664 @@
+{
+  "questions": [
+    {
+      "id": "q1", "unit": "unit1", "topicId": "u1t1", "topic": "Number Systems",
+      "difficulty": "easy",
+      "question": "What is the decimal equivalent of the binary number 1011?",
+      "options": ["9", "10", "11", "12"],
+      "correct": 2,
+      "explanation": "1011 in binary = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 8 + 0 + 2 + 1 = 11 in decimal."
+    },
+    {
+      "id": "q2", "unit": "unit1", "topicId": "u1t1", "topic": "Number Systems",
+      "difficulty": "easy",
+      "question": "The hexadecimal equivalent of decimal 255 is:",
+      "options": ["EF", "FE", "FF", "F0"],
+      "correct": 2,
+      "explanation": "255 ÷ 16 = 15 remainder 15. Both digits are 15 (F in hex), so 255 = FF in hexadecimal."
+    },
+    {
+      "id": "q3", "unit": "unit1", "topicId": "u1t2", "topic": "Binary Arithmetic",
+      "difficulty": "medium",
+      "question": "The 2's complement of 0110 is:",
+      "options": ["1001", "1010", "1000", "0111"],
+      "correct": 1,
+      "explanation": "1's complement of 0110 = 1001. Adding 1 gives 1001 + 1 = 1010. So 2's complement of 0110 is 1010."
+    },
+    {
+      "id": "q4", "unit": "unit1", "topicId": "u1t3", "topic": "Boolean Algebra",
+      "difficulty": "easy",
+      "question": "According to De Morgan's theorem, the complement of (A + B) is:",
+      "options": ["A' + B'", "A' · B'", "A · B", "A + B"],
+      "correct": 1,
+      "explanation": "De Morgan's First Theorem: (A + B)' = A' · B'. The complement of OR is AND of complements."
+    },
+    {
+      "id": "q5", "unit": "unit1", "topicId": "u1t3", "topic": "Logic Gates",
+      "difficulty": "easy",
+      "question": "Which gate is called the 'Universal Gate'?",
+      "options": ["AND gate", "OR gate", "NAND gate", "XOR gate"],
+      "correct": 2,
+      "explanation": "NAND and NOR gates are both called universal gates because any Boolean function can be implemented using only NAND (or only NOR) gates."
+    },
+    {
+      "id": "q6", "unit": "unit1", "topicId": "u1t4", "topic": "Combinational Circuits",
+      "difficulty": "medium",
+      "question": "A multiplexer with n select lines can have a maximum of how many inputs?",
+      "options": ["n", "n²", "2n", "2ⁿ"],
+      "correct": 3,
+      "explanation": "A multiplexer (MUX) with n select lines can select from 2ⁿ input lines. For example, 2 select lines → 4-to-1 MUX (4 inputs)."
+    },
+    {
+      "id": "q7", "unit": "unit1", "topicId": "u1t6", "topic": "Sequential Circuits",
+      "difficulty": "medium",
+      "question": "Which flip-flop is also known as the 'Data flip-flop' and is used to eliminate the race condition?",
+      "options": ["SR Flip-Flop", "JK Flip-Flop", "D Flip-Flop", "T Flip-Flop"],
+      "correct": 2,
+      "explanation": "The D (Data) flip-flop eliminates the indeterminate state (race condition) of the SR flip-flop. The output Q follows input D on the clock edge."
+    },
+    {
+      "id": "q8", "unit": "unit1", "topicId": "u1t5", "topic": "Memory Systems",
+      "difficulty": "easy",
+      "question": "Which type of memory is volatile?",
+      "options": ["ROM", "EPROM", "RAM", "EEPROM"],
+      "correct": 2,
+      "explanation": "RAM (Random Access Memory) is volatile — it loses its data when power is removed. ROM, EPROM, and EEPROM are non-volatile."
+    },
+    {
+      "id": "q9", "unit": "unit2", "topicId": "u2t2", "topic": "Error Detection",
+      "difficulty": "medium",
+      "question": "Hamming code is used for:",
+      "options": ["Data compression only", "Error detection and correction", "Encryption", "Data compression and encryption"],
+      "correct": 1,
+      "explanation": "Hamming code is an error-detecting and error-correcting code. It can detect up to 2-bit errors and correct 1-bit errors."
+    },
+    {
+      "id": "q10", "unit": "unit2", "topicId": "u2t4", "topic": "Microcomputer Components",
+      "difficulty": "easy",
+      "question": "The ALU performs which type of operations?",
+      "options": ["Only arithmetic operations", "Only logical operations", "Both arithmetic and logical operations", "Control operations only"],
+      "correct": 2,
+      "explanation": "The Arithmetic Logic Unit (ALU) performs both arithmetic operations (addition, subtraction) and logical operations (AND, OR, NOT, XOR)."
+    },
+    {
+      "id": "q11", "unit": "unit3", "topicId": "u3t1", "topic": "Algorithm Analysis",
+      "difficulty": "medium",
+      "question": "Which notation gives the worst-case time complexity?",
+      "options": ["Big-Omega (Ω)", "Big-O (O)", "Theta (Θ)", "Little-o (o)"],
+      "correct": 1,
+      "explanation": "Big-O notation represents the upper bound (worst-case) of an algorithm's time complexity. Big-Omega is the lower bound (best-case) and Theta is the tight bound."
+    },
+    {
+      "id": "q12", "unit": "unit3", "topicId": "u3t8", "topic": "Sorting",
+      "difficulty": "medium",
+      "question": "What is the best-case time complexity of Quick Sort?",
+      "options": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+      "correct": 1,
+      "explanation": "The best-case and average-case time complexity of Quick Sort is O(n log n), which occurs when the pivot always divides the array into two equal halves. Worst case is O(n²)."
+    },
+    {
+      "id": "q13", "unit": "unit3", "topicId": "u3t8", "topic": "Sorting",
+      "difficulty": "easy",
+      "question": "Which sorting algorithm has the worst-case time complexity of O(n log n)?",
+      "options": ["Bubble Sort", "Selection Sort", "Merge Sort", "Insertion Sort"],
+      "correct": 2,
+      "explanation": "Merge Sort always has O(n log n) time complexity in all cases (best, average, worst). Bubble, Selection, and Insertion sort all have O(n²) worst case."
+    },
+    {
+      "id": "q14", "unit": "unit3", "topicId": "u3t7", "topic": "Searching",
+      "difficulty": "easy",
+      "question": "Binary search requires the array to be:",
+      "options": ["Unsorted", "Sorted", "Partially sorted", "Reversed"],
+      "correct": 1,
+      "explanation": "Binary search can only be applied on a sorted array. It works by repeatedly dividing the search interval in half."
+    },
+    {
+      "id": "q15", "unit": "unit3", "topicId": "u3t10", "topic": "Trees",
+      "difficulty": "medium",
+      "question": "In a Binary Search Tree, the inorder traversal gives nodes in:",
+      "options": ["Reverse sorted order", "Sorted order (ascending)", "Level order", "Random order"],
+      "correct": 1,
+      "explanation": "Inorder traversal of a BST (Left → Root → Right) visits nodes in ascending sorted order. This is a fundamental property of BSTs."
+    },
+    {
+      "id": "q16", "unit": "unit3", "topicId": "u3t9", "topic": "Graphs",
+      "difficulty": "medium",
+      "question": "Which traversal algorithm uses a Queue data structure?",
+      "options": ["DFS (Depth First Search)", "BFS (Breadth First Search)", "Inorder Traversal", "Postorder Traversal"],
+      "correct": 1,
+      "explanation": "BFS (Breadth First Search) uses a Queue to explore vertices level by level. DFS uses a Stack (or recursion)."
+    },
+    {
+      "id": "q17", "unit": "unit3", "topicId": "u3t5", "topic": "Stacks",
+      "difficulty": "medium",
+      "question": "What is the postfix expression for the infix expression: A + B * C?",
+      "options": ["A B C * +", "A B + C *", "A B C + *", "+ A * B C"],
+      "correct": 0,
+      "explanation": "Following operator precedence (multiplication before addition): A + (B * C) → A BC* + → ABC*+. The result is A B C * +."
+    },
+    {
+      "id": "q18", "unit": "unit3", "topicId": "u3t4", "topic": "Linked Lists",
+      "difficulty": "easy",
+      "question": "Which linked list allows traversal in both directions?",
+      "options": ["Singly Linked List", "Circular Linked List", "Doubly Linked List", "Linear Linked List"],
+      "correct": 2,
+      "explanation": "A Doubly Linked List has pointers to both the next and previous nodes, allowing traversal in both forward and backward directions."
+    },
+    {
+      "id": "q19", "unit": "unit5", "topicId": "u5t3", "topic": "Deadlock",
+      "difficulty": "medium",
+      "question": "Which of the following is NOT a necessary condition for deadlock?",
+      "options": ["Mutual Exclusion", "Hold and Wait", "Preemption", "Circular Wait"],
+      "correct": 2,
+      "explanation": "The four necessary conditions for deadlock (Coffman conditions) are: Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait. 'Preemption' itself is NOT a condition — 'No Preemption' is the condition."
+    },
+    {
+      "id": "q20", "unit": "unit5", "topicId": "u5t2", "topic": "CPU Scheduling",
+      "difficulty": "medium",
+      "question": "Which CPU scheduling algorithm may cause 'starvation'?",
+      "options": ["FCFS (First Come First Serve)", "Round Robin", "Priority Scheduling", "SJF (Shortest Job First)"],
+      "correct": 2,
+      "explanation": "Priority Scheduling can cause starvation — low-priority processes may never execute if high-priority processes keep arriving. This is solved using aging (gradually increasing the priority of waiting processes)."
+    },
+    {
+      "id": "q21", "unit": "unit5", "topicId": "u5t4", "topic": "Memory Management",
+      "difficulty": "medium",
+      "question": "Which page replacement algorithm suffers from Belady's anomaly?",
+      "options": ["LRU (Least Recently Used)", "Optimal Page Replacement", "FIFO (First In First Out)", "LFU (Least Frequently Used)"],
+      "correct": 2,
+      "explanation": "FIFO page replacement algorithm suffers from Belady's anomaly — increasing the number of page frames can sometimes increase the number of page faults."
+    },
+    {
+      "id": "q22", "unit": "unit5", "topicId": "u5t3", "topic": "Synchronization",
+      "difficulty": "hard",
+      "question": "A semaphore initialized to 1 is called a:",
+      "options": ["Counting Semaphore", "Binary Semaphore (Mutex)", "General Semaphore", "Spinlock"],
+      "correct": 1,
+      "explanation": "A binary semaphore (or mutex) is initialized to 1 and can only take values 0 or 1. It is used for mutual exclusion. A counting semaphore can have any non-negative integer value."
+    },
+    {
+      "id": "q23", "unit": "unit6", "topicId": "u6t3", "topic": "Normalization",
+      "difficulty": "medium",
+      "question": "A relation is in 2NF if it is in 1NF and:",
+      "options": ["No transitive dependencies exist", "Every non-key attribute is fully functionally dependent on the primary key", "All attributes are atomic", "No multi-valued dependencies exist"],
+      "correct": 1,
+      "explanation": "2NF requires the relation to be in 1NF and every non-prime (non-key) attribute must be fully functionally dependent on the entire primary key — no partial dependencies allowed."
+    },
+    {
+      "id": "q24", "unit": "unit6", "topicId": "u6t4", "topic": "Transactions",
+      "difficulty": "easy",
+      "question": "The full form of ACID properties in DBMS is:",
+      "options": [
+        "Atomicity, Consistency, Isolation, Durability",
+        "Accuracy, Consistency, Integrity, Durability",
+        "Atomicity, Correctness, Isolation, Data-integrity",
+        "Atomicity, Consistency, Integrity, Dependency"
+      ],
+      "correct": 0,
+      "explanation": "ACID stands for: Atomicity (transaction completes fully or not at all), Consistency (DB remains consistent), Isolation (concurrent transactions don't interfere), Durability (committed data persists)."
+    },
+    {
+      "id": "q25", "unit": "unit6", "topicId": "u6t2", "topic": "Relational Model",
+      "difficulty": "easy",
+      "question": "A foreign key in a relational database:",
+      "options": [
+        "Uniquely identifies each record in its own table",
+        "Is a key that references the primary key of another table",
+        "Cannot have duplicate values",
+        "Must always be indexed"
+      ],
+      "correct": 1,
+      "explanation": "A foreign key is a field (or set of fields) in one table that refers to the primary key of another table, establishing a referential integrity constraint between the two tables."
+    },
+    {
+      "id": "q26", "unit": "unit7", "topicId": "u7t1", "topic": "Network Models",
+      "difficulty": "easy",
+      "question": "The OSI model has how many layers?",
+      "options": ["4", "5", "6", "7"],
+      "correct": 3,
+      "explanation": "The OSI (Open Systems Interconnection) model has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application."
+    },
+    {
+      "id": "q27", "unit": "unit7", "topicId": "u7t3", "topic": "Network Layer",
+      "difficulty": "medium",
+      "question": "Which protocol is used to map an IP address to a MAC address?",
+      "options": ["DNS", "DHCP", "ARP", "RARP"],
+      "correct": 2,
+      "explanation": "ARP (Address Resolution Protocol) maps an IP address (logical address) to a MAC address (physical address) within a local network."
+    },
+    {
+      "id": "q28", "unit": "unit7", "topicId": "u7t4", "topic": "Transport Layer",
+      "difficulty": "medium",
+      "question": "Which transport layer protocol provides reliable, connection-oriented communication?",
+      "options": ["UDP", "IP", "TCP", "HTTP"],
+      "correct": 2,
+      "explanation": "TCP (Transmission Control Protocol) provides reliable, connection-oriented, ordered, and error-checked delivery. UDP is connectionless and unreliable (faster but no guarantees)."
+    },
+    {
+      "id": "q29", "unit": "unit7", "topicId": "u7t5", "topic": "Application Layer",
+      "difficulty": "easy",
+      "question": "HTTP (HyperText Transfer Protocol) operates at which OSI layer?",
+      "options": ["Transport Layer", "Network Layer", "Session Layer", "Application Layer"],
+      "correct": 3,
+      "explanation": "HTTP operates at the Application Layer (Layer 7) of the OSI model. It is the protocol used for transmitting web pages on the World Wide Web."
+    },
+    {
+      "id": "q30", "unit": "unit7", "topicId": "u7t2", "topic": "Data Link Layer",
+      "difficulty": "medium",
+      "question": "Which multiple access protocol uses 'Carrier Sense' before transmitting?",
+      "options": ["TDMA", "FDMA", "CSMA/CD", "ALOHA"],
+      "correct": 2,
+      "explanation": "CSMA/CD (Carrier Sense Multiple Access with Collision Detection) checks the channel before transmitting (Carrier Sense) and detects collisions during transmission. Used in Ethernet."
+    },
+    {
+      "id": "q31", "unit": "unit8", "topicId": "u8t1", "topic": "SE Models",
+      "difficulty": "easy",
+      "question": "Which software development model is also called the 'Linear Sequential Model'?",
+      "options": ["Spiral Model", "Prototype Model", "Waterfall Model", "Agile Model"],
+      "correct": 2,
+      "explanation": "The Waterfall Model is a linear sequential model where each phase must be completed before the next begins. Phases: Requirements → Design → Implementation → Testing → Deployment → Maintenance."
+    },
+    {
+      "id": "q32", "unit": "unit9", "topicId": "u9t2", "topic": "OOP Concepts",
+      "difficulty": "easy",
+      "question": "Which OOP concept allows a function to behave differently based on the object calling it?",
+      "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+      "correct": 2,
+      "explanation": "Polymorphism (Greek for 'many forms') allows the same function/method to behave differently for different types of objects. It includes compile-time (overloading) and runtime (overriding) polymorphism."
+    },
+    {
+      "id": "q33", "unit": "unit11", "topicId": "u11t2", "topic": "Finite Automata",
+      "difficulty": "medium",
+      "question": "DFA stands for:",
+      "options": [
+        "Dynamic Finite Algorithm",
+        "Deterministic Finite Automaton",
+        "Defined Formal Automata",
+        "Direct Finite Automaton"
+      ],
+      "correct": 1,
+      "explanation": "DFA stands for Deterministic Finite Automaton. In a DFA, for each state and input symbol, there is exactly one transition — no ambiguity."
+    },
+    {
+      "id": "q34", "unit": "unit11", "topicId": "u11t3", "topic": "Regular Languages",
+      "difficulty": "hard",
+      "question": "Which of the following is NOT a regular language?",
+      "options": [
+        "Set of all binary strings ending in 1",
+        "Set of all strings with equal number of a's and b's",
+        "Set of all binary strings with even number of 0s",
+        "Set of all strings over {a,b} starting with 'a'"
+      ],
+      "correct": 1,
+      "explanation": "The set of strings with equal number of a's and b's (e.g., aⁿbⁿ) is a context-free language, not a regular language. This can be proven using the Pumping Lemma for regular languages."
+    },
+    {
+      "id": "q35", "unit": "unit4", "topicId": "u4t2", "topic": "Divide & Conquer",
+      "difficulty": "medium",
+      "question": "The time complexity of Binary Search is:",
+      "options": ["O(n)", "O(n²)", "O(log n)", "O(n log n)"],
+      "correct": 2,
+      "explanation": "Binary search has O(log n) time complexity because it halves the search space with each step. The recurrence relation is T(n) = T(n/2) + O(1), which solves to O(log n)."
+    },
+    {
+      "id": "q36", "unit": "unit13", "topicId": "u13t2", "topic": "AI Search",
+      "difficulty": "medium",
+      "question": "Which AI search algorithm uses a heuristic function to guide the search?",
+      "options": ["DFS", "BFS", "A* Algorithm", "Linear Search"],
+      "correct": 2,
+      "explanation": "A* (A-star) algorithm uses a heuristic function h(n) to estimate the cost from the current node to the goal, combined with g(n) (cost from start). It is both complete and optimal when the heuristic is admissible."
+    },
+    {
+      "id": "q37", "unit": "unit5", "topicId": "u5t1", "topic": "OS Types",
+      "difficulty": "easy",
+      "question": "Which type of OS is used in nuclear reactors and medical devices where timing is critical?",
+      "options": ["Batch OS", "Time-sharing OS", "Real-time OS", "Distributed OS"],
+      "correct": 2,
+      "explanation": "Real-time OS (RTOS) is designed for applications with strict timing constraints. Hard RTOS (nuclear reactors, aircraft) must meet deadlines; Soft RTOS (multimedia) can tolerate some delay."
+    },
+    {
+      "id": "q38", "unit": "unit6", "topicId": "u6t1", "topic": "DBMS Introduction",
+      "difficulty": "easy",
+      "question": "In the 3-level architecture of DBMS, the 'Conceptual Level' represents:",
+      "options": [
+        "How data is physically stored on disk",
+        "The overall logical structure of the entire database",
+        "Individual user views of the data",
+        "The network interface to the database"
+      ],
+      "correct": 1,
+      "explanation": "The 3 levels are: External (user views), Conceptual (overall logical structure — community view), and Internal (physical storage). The Conceptual level defines what data is stored and relationships between them."
+    },
+    {
+      "id": "q39", "unit": "unit1", "topicId": "u1t3", "topic": "K-map",
+      "difficulty": "hard",
+      "question": "In a 4-variable K-map, an 'octet' (group of 8) reduces the Boolean expression to how many literals?",
+      "options": ["4 literals", "3 literals", "2 literals", "1 literal"],
+      "correct": 3,
+      "explanation": "In a K-map, a group of 2^k cells reduces literals by k. An octet (8 = 2³ cells) in a 4-variable (A,B,C,D) K-map reduces by 3 variables, leaving only 1 literal."
+    },
+    {
+      "id": "q40", "unit": "unit2", "topicId": "u2t1", "topic": "Data Representation",
+      "difficulty": "medium",
+      "question": "The Gray code for decimal 6 is:",
+      "options": ["0110", "0101", "0111", "1001"],
+      "correct": 1,
+      "explanation": "Decimal 6 = Binary 0110. Gray code is obtained by XOR-ing each bit with the previous bit: 0^0=0, 0^1=1, 1^1=0, 1^0=1 → Wait: MSB stays same: 0; 0 XOR 1=1; 1 XOR 1=0; 1 XOR 0=1 → 0101. Gray code of 6 is 0101."
+    },
+    {
+      "id": "q41", "unit": "unit3", "topicId": "u3t3", "topic": "Recursion",
+      "difficulty": "easy",
+      "question": "In the Tower of Hanoi problem with n disks, the minimum number of moves required is:",
+      "options": ["n", "n²", "2ⁿ - 1", "n!"],
+      "correct": 2,
+      "explanation": "The Tower of Hanoi with n disks requires a minimum of 2ⁿ - 1 moves. For 3 disks: 2³ - 1 = 7 moves. This follows the recurrence T(n) = 2T(n-1) + 1."
+    },
+    {
+      "id": "q42", "unit": "unit7", "topicId": "u7t3", "topic": "Subnetting",
+      "difficulty": "hard",
+      "question": "A class C network 192.168.1.0 is divided into 4 equal subnets. What is the subnet mask?",
+      "options": ["255.255.255.128", "255.255.255.192", "255.255.255.224", "255.255.255.240"],
+      "correct": 1,
+      "explanation": "Class C has 256 addresses. Dividing into 4 subnets needs 2 subnet bits (2²=4). Subnet mask: 255.255.255.192 (/26). Each subnet has 64 addresses (62 usable hosts)."
+    },
+    {
+      "id": "q43", "unit": "unit5", "topicId": "u5t4", "topic": "Paging",
+      "difficulty": "medium",
+      "question": "In a paging system, if the page size is 4KB and a process needs 13KB, how many pages are needed?",
+      "options": ["3 pages", "4 pages", "5 pages", "13 pages"],
+      "correct": 1,
+      "explanation": "13KB / 4KB = 3.25. Since we need to accommodate all data, we need ceiling(3.25) = 4 pages (last page will be partially filled — internal fragmentation)."
+    },
+    {
+      "id": "q44", "unit": "unit8", "topicId": "u8t4", "topic": "Testing",
+      "difficulty": "easy",
+      "question": "White-box testing is also known as:",
+      "options": ["Black-box testing", "Functional testing", "Structural testing / Glass-box testing", "Acceptance testing"],
+      "correct": 2,
+      "explanation": "White-box testing (also called glass-box, structural, or clear-box testing) examines the internal logic and structure of the code. The tester has knowledge of the source code."
+    },
+    {
+      "id": "q45", "unit": "unit9", "topicId": "u9t1", "topic": "OOP Basics",
+      "difficulty": "easy",
+      "question": "Which OOP feature binds data and functions together into a single unit?",
+      "options": ["Polymorphism", "Inheritance", "Encapsulation", "Abstraction"],
+      "correct": 2,
+      "explanation": "Encapsulation is the OOP concept of bundling data (attributes) and methods (functions) that operate on the data into a single unit (class), and restricting access to some of the object's components."
+    },
+    {
+      "id": "q46", "unit": "unit4", "topicId": "u4t5", "topic": "Graph Algorithms",
+      "difficulty": "medium",
+      "question": "Kruskal's algorithm finds the:",
+      "options": ["Shortest path between two nodes", "Minimum Spanning Tree", "Maximum flow in a network", "Topological ordering"],
+      "correct": 1,
+      "explanation": "Kruskal's algorithm finds the Minimum Spanning Tree (MST) of a weighted undirected graph by greedily adding the smallest weight edge that doesn't form a cycle."
+    },
+    {
+      "id": "q47", "unit": "unit6", "topicId": "u6t3", "topic": "Normalization",
+      "difficulty": "hard",
+      "question": "BCNF is stricter than 3NF. A relation is in BCNF if for every functional dependency X → Y, X must be a:",
+      "options": ["Primary key", "Superkey", "Candidate key", "Foreign key"],
+      "correct": 1,
+      "explanation": "BCNF requires that for every non-trivial functional dependency X → Y, X must be a superkey (a set of attributes that can determine all other attributes). This is stricter than 3NF."
+    },
+    {
+      "id": "q48", "unit": "unit11", "topicId": "u11t5", "topic": "Turing Machines",
+      "difficulty": "hard",
+      "question": "The Halting Problem is:",
+      "options": [
+        "Decidable and computable",
+        "Undecidable — no algorithm can solve it for all inputs",
+        "NP-Complete",
+        "Solvable with exponential time"
+      ],
+      "correct": 1,
+      "explanation": "The Halting Problem (determining whether a given program will halt or run forever for a given input) is undecidable — Alan Turing proved no general algorithm can solve it for all possible program-input pairs."
+    },
+    {
+      "id": "q49", "unit": "unit13", "topicId": "u13t3", "topic": "Knowledge Representation",
+      "difficulty": "medium",
+      "question": "In expert systems, 'forward chaining' means:",
+      "options": [
+        "Starting from the goal and working backwards to find facts",
+        "Starting from known facts and applying rules to derive conclusions",
+        "Chaining multiple neural networks forward",
+        "Processing data in FIFO order"
+      ],
+      "correct": 1,
+      "explanation": "Forward chaining (data-driven reasoning) starts from known facts and applies inference rules to derive new facts, continuing until the goal is reached. Backward chaining starts from the goal."
+    },
+    {
+      "id": "q50", "unit": "unit12", "topicId": "u12t1", "topic": "IoT",
+      "difficulty": "easy",
+      "question": "IoT stands for:",
+      "options": [
+        "Integration of Technologies",
+        "Internet of Things",
+        "Interconnected Object Technology",
+        "Intelligent Online Technology"
+      ],
+      "correct": 1,
+      "explanation": "IoT stands for Internet of Things — a network of physical devices ('things') embedded with sensors, software, and other technologies that connect and exchange data over the internet."
+    },
+    {
+      "id": "q51", "unit": "unit10", "topicId": "u10t1", "topic": "Web Development",
+      "difficulty": "easy",
+      "question": "Which HTML tag is used to create a hyperlink?",
+      "options": ["<link>", "<a>", "<href>", "<url>"],
+      "correct": 1,
+      "explanation": "The <a> (anchor) tag is used in HTML to define a hyperlink, using the 'href' attribute to specify the destination URL."
+    },
+    {
+      "id": "q52", "unit": "unit10", "topicId": "u10t2", "topic": "DOM & JavaScript",
+      "difficulty": "medium",
+      "question": "DOM stands for:",
+      "options": ["Document Object Model", "Data Object Method", "Digital Ordinance Map", "Domain Oriented Mode"],
+      "correct": 0,
+      "explanation": "DOM stands for Document Object Model — a programming interface for web documents that represents the page so programs can change structure, style, and content."
+    },
+    {
+      "id": "q53", "unit": "unit14", "topicId": "u14t1", "topic": "E-Commerce",
+      "difficulty": "easy",
+      "question": "EDI in E-Commerce stands for:",
+      "options": [
+        "Electronic Data Interchange",
+        "External Data Integration",
+        "Encryption Data Interface",
+        "Electronic Document Inspection"
+      ],
+      "correct": 0,
+      "explanation": "EDI stands for Electronic Data Interchange — the computer-to-computer exchange of business documents in a standard electronic format between business partners."
+    },
+    {
+      "id": "q54", "unit": "unit14", "topicId": "u14t2", "topic": "Payment Systems",
+      "difficulty": "medium",
+      "question": "Which security mechanism acts as a barrier between a trusted internal network and an untrusted external network (Internet)?",
+      "options": ["Router", "Switch", "Firewall", "Bridge"],
+      "correct": 2,
+      "explanation": "A Firewall is a network security device or software that monitors and controls incoming and outgoing network traffic based on predetermined security rules."
+    },
+    {
+      "id": "q55", "unit": "unit15", "topicId": "u15t1", "topic": "Multimedia Audio",
+      "difficulty": "easy",
+      "question": "MIDI in multimedia stands for:",
+      "options": [
+        "Musical Instrument Digital Interface",
+        "Media Integration & Digital Interaction",
+        "Multiple Input Data Interchange",
+        "Musical Information Distribution Index"
+      ],
+      "correct": 0,
+      "explanation": "MIDI stands for Musical Instrument Digital Interface — a technical standard that describes a communications protocol, digital interface, and audio connector for musical instruments and computers."
+    },
+    {
+      "id": "q56", "unit": "unit15", "topicId": "u15t1", "topic": "Multimedia Formats",
+      "difficulty": "medium",
+      "question": "Which of the following is a lossy audio compression format?",
+      "options": ["WAV", "FLAC", "MP3", "ALAC"],
+      "correct": 2,
+      "explanation": "MP3 (MPEG Audio Layer III) is a lossy audio compression format that reduces file size by discarding frequencies less audible to human ears. WAV and FLAC are uncompressed/lossless."
+    },
+    {
+      "id": "q57", "unit": "unit10", "topicId": "u10t1", "topic": "Node.js & Version Control",
+      "difficulty": "medium",
+      "question": "Git is an example of a:",
+      "options": [
+        "Centralized Version Control System",
+        "Distributed Version Control System",
+        "Relational Database System",
+        "Web Server Framework"
+      ],
+      "correct": 1,
+      "explanation": "Git is a Distributed Version Control System (DVCS) where every developer has a full copy of the entire repository history locally on their machine."
+    },
+    {
+      "id": "q58", "unit": "unit12", "topicId": "u12t2", "topic": "IoT Protocols",
+      "difficulty": "hard",
+      "question": "Which low-power wireless communication standard is widely used for short-range IoT sensor networks (IEEE 802.15.4 based)?",
+      "options": ["Zigbee", "5G", "Ethernet", "SCADA"],
+      "correct": 0,
+      "explanation": "Zigbee is a low-power, low-data-rate wireless networking standard based on IEEE 802.15.4, widely used in IoT, home automation, and WSN (Wireless Sensor Networks)."
+    },
+    {
+      "id": "q59", "unit": "unit14", "topicId": "u14t1", "topic": "E-Commerce Models",
+      "difficulty": "easy",
+      "question": "Transactions between businesses and individual consumers (e.g. Amazon to customer) are classified as:",
+      "options": ["B2B", "B2C", "C2C", "C2B"],
+      "correct": 1,
+      "explanation": "B2C (Business-to-Consumer) refers to transactions conducted directly between a company and consumers who are the end-users of its products or services."
+    },
+    {
+      "id": "q60", "unit": "unit15", "topicId": "u15t2", "topic": "Graphics & Video",
+      "difficulty": "medium",
+      "question": "Graphics images defined mathematically by vectors, paths, and points (which scale without losing quality) are called:",
+      "options": ["Raster Graphics", "Bitmap Images", "Vector Graphics", "Pixel Art"],
+      "correct": 2,
+      "explanation": "Vector graphics use mathematical formulas (lines, curves, shapes) rather than grid of pixels (raster/bitmap). They can be scaled infinitely without pixelation or quality loss."
+    },
+    {
+      "id": "q61", "unit": "unit4", "topicId": "u4t3", "topic": "Dynamic Programming",
+      "difficulty": "hard",
+      "question": "The Floyd-Warshall algorithm is used to compute:",
+      "options": ["Single-source shortest paths", "All-pairs shortest paths", "Minimum spanning tree", "Topological order"],
+      "correct": 1,
+      "explanation": "Floyd-Warshall uses dynamic programming to find all-pairs shortest paths in a weighted graph in O(V³) time."
+    },
+    {
+      "id": "q62", "unit": "unit8", "topicId": "u8t2", "topic": "Project Management",
+      "difficulty": "medium",
+      "question": "In the COCOMO model, software development effort is primarily estimated based on:",
+      "options": ["Number of developers", "KLOC (Kilo Lines of Code)", "Number of test cases", "Project duration in days"],
+      "correct": 1,
+      "explanation": "COCOMO (Constructive Cost Model) estimates effort (Person-Months) as a function of size measured in KLOC (Thousands of Lines of Code)."
+    },
+    {
+      "id": "q63", "unit": "unit9", "topicId": "u9t2", "topic": "OOP Advanced Concepts",
+      "difficulty": "medium",
+      "question": "A class containing at least one pure virtual function in C++ is called an:",
+      "options": ["Derived Class", "Abstract Class", "Friend Class", "Concrete Class"],
+      "correct": 1,
+      "explanation": "An abstract class cannot be instantiated directly and must have at least one pure virtual function (virtual void func() = 0)."
+    },
+    {
+      "id": "q64", "unit": "unit11", "topicId": "u11t4", "topic": "Context-Free Languages",
+      "difficulty": "hard",
+      "question": "Pushdown Automata (PDA) differ from Finite Automata because a PDA includes:",
+      "options": ["A Tape", "A Stack memory", "Multiple Read Heads", "Queue memory"],
+      "correct": 1,
+      "explanation": "A Pushdown Automaton (PDA) is a finite automaton equipped with an auxiliary Stack memory, enabling recognition of Context-Free Languages."
+    },
+    {
+      "id": "q65", "unit": "unit12", "topicId": "u12t2", "topic": "IoT Protocols",
+      "difficulty": "medium",
+      "question": "Which lightweight messaging protocol based on Publish-Subscribe pattern is widely used in IoT applications?",
+      "options": ["HTTP", "MQTT", "FTP", "SMTP"],
+      "correct": 1,
+      "explanation": "MQTT (Message Queuing Telemetry Transport) is a lightweight publish-subscribe network protocol designed for resource-constrained IoT devices."
+    },
+    {
+      "id": "q66", "unit": "unit13", "topicId": "u13t3", "topic": "Knowledge Representation",
+      "difficulty": "medium",
+      "question": "A probabilistic graphical model representing a set of variables and their conditional dependencies via a Directed Acyclic Graph (DAG) is a:",
+      "options": ["Decision Tree", "Bayesian Network", "Neural Network", "Production System"],
+      "correct": 1,
+      "explanation": "Bayesian Networks (or belief networks) combine DAGs and probability theory to represent uncertain knowledge and conditional dependencies."
+    },
+    {
+      "id": "q67", "unit": "unit14", "topicId": "u14t1", "topic": "E-Commerce Security",
+      "difficulty": "hard",
+      "question": "Which cryptographic mechanism guarantees non-repudiation and authenticity of electronic documents in E-Commerce?",
+      "options": ["Symmetric Cipher", "Digital Signature", "Checksum", "Base64 Encoding"],
+      "correct": 1,
+      "explanation": "Digital Signatures use asymmetric cryptography (private key signing, public key verification) to ensure authenticity, integrity, and non-repudiation."
+    },
+    {
+      "id": "q68", "unit": "unit15", "topicId": "u15t1", "topic": "Multimedia Video",
+      "difficulty": "medium",
+      "question": "Standard full-motion video for smooth human perception typically requires at least how many frames per second (fps)?",
+      "options": ["5 fps", "12 fps", "24-30 fps", "60-120 fps"],
+      "correct": 2,
+      "explanation": "Standard motion picture and television playback requires 24 to 30 frames per second to create continuous fluid motion without flickering."
+    },
+    {
+      "id": "q69", "unit": "unit4", "topicId": "u4t6", "topic": "Complexity Theory",
+      "difficulty": "hard",
+      "question": "The class of decision problems that can be solved by a non-deterministic Turing machine in polynomial time is:",
+      "options": ["Class P", "Class NP", "Class NP-Hard", "Class EXPTIME"],
+      "correct": 1,
+      "explanation": "Class NP (Nondeterministic Polynomial time) consists of problems verifiable in polynomial time or solvable by a non-deterministic machine in polynomial time."
+    },
+    {
+      "id": "q70", "unit": "unit8", "topicId": "u8t3", "topic": "Requirements & Design",
+      "difficulty": "medium",
+      "question": "Data Flow Diagrams (DFDs) are used in which design methodology?",
+      "options": ["Object-Oriented Design", "Function-Oriented / Structured Design", "Agile Testing", "Database Normalization"],
+      "correct": 1,
+      "explanation": "DFDs depict the flow of data through a system and are central to Function-Oriented / Structured Systems Analysis and Design (SSAD)."
+    },
+    {
+      "id": "q71", "unit": "unit9", "topicId": "u9t1", "topic": "OOP Fundamentals",
+      "difficulty": "easy",
+      "question": "A special member function automatically called when an object is created is a:",
+      "options": ["Destructor", "Constructor", "Virtual Method", "Static Method"],
+      "correct": 1,
+      "explanation": "A constructor shares the class name and executes automatically upon object instantiation to initialize object attributes."
+    },
+    {
+      "id": "q72", "unit": "unit10", "topicId": "u10t2", "topic": "Web Technologies",
+      "difficulty": "medium",
+      "question": "In PHP, variables always start with which symbol?",
+      "options": ["@", "#", "$", "&"],
+      "correct": 2,
+      "explanation": "All PHP variable names must start with a dollar sign ($), followed by the variable name (e.g. $username)."
+    },
+    {
+      "id": "q73", "unit": "unit11", "topicId": "u11t2", "topic": "Finite Automata",
+      "difficulty": "easy",
+      "question": "An NFA differs from a DFA because an NFA can have:",
+      "options": [
+        "Multiple transitions for the same input symbol from a state",
+        "Infinite number of states",
+        "No final state",
+        "No start state"
+      ],
+      "correct": 0,
+      "explanation": "NFA (Nondeterministic Finite Automaton) permits zero, one, or multiple state transitions for a single input symbol, as well as epsilon (empty) transitions."
+    },
+    {
+      "id": "q74", "unit": "unit12", "topicId": "u12t1", "topic": "IoT Fundamentals",
+      "difficulty": "easy",
+      "question": "Devices that convert physical parameters (temperature, motion, light) into electrical signals are called:",
+      "options": ["Actuators", "Sensors", "Microcontrollers", "Gateways"],
+      "correct": 1,
+      "explanation": "Sensors detect environmental or physical properties and convert them into measurable signals. Actuators perform physical actions based on control signals."
+    },
+    {
+      "id": "q75", "unit": "unit13", "topicId": "u13t2", "topic": "Search Strategies",
+      "difficulty": "medium",
+      "question": "Hill Climbing search algorithm is a form of:",
+      "options": ["Uninformed / Blind search", "Local greedy heuristic search", "Optimal shortest-path search", "Breadth-first search"],
+      "correct": 1,
+      "explanation": "Hill Climbing is a local search algorithm that continuously moves in the direction of increasing value/elevation (greedy heuristic) until it reaches a peak."
+    }
+  ]
+}
